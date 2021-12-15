@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+
+@layer base {
+  html,
+  body {
+    font-family: "Poppins", sans-serif !important;
+    @apply antialiased;
+  }
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+}
+#show_bg_2 {
+  background-size: cover;
+  color: red;
+}
+@media (max-width: 768px) {
+  .slick-dots,
+  .slick-next,
+  .slick-prev {
+    position: relative !important;
+    height: 80% !important;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: -5px;
+  }
+}
