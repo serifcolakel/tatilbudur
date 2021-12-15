@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.174" height="11.363" viewBox="0 0 17.174 11.363">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_230" data-name="Rectangle 230" width="17.174" height="11.363" fill="#3f536c"/>
+    </clipPath>
+  </defs>
+  <g id="kampanyalar" transform="translate(0 0)">
+    <g id="Group_809" data-name="Group 809" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_322" data-name="Path 322" d="M68.917,37.093a.572.572,0,0,0-.809.809l1.336,1.336a.572.572,0,0,0,.809-.809Z" transform="translate(-54.987 -29.891)" fill="#3f536c"/>
+      <path id="Path_323" data-name="Path 323" d="M68.458,2.466a.573.573,0,0,0,.4-.168L70.195.962a.572.572,0,0,0-.809-.809L68.05,1.489a.572.572,0,0,0,.4.977Z" transform="translate(-54.929 0)" fill="#3f536c"/>
+      <path id="Path_324" data-name="Path 324" d="M10.671,5.006a1.034,1.034,0,0,0-.109,0V3.179a.865.865,0,0,0-1.374-.7L7.135,3.975H1.387A1.385,1.385,0,0,0,0,5.359V7.895A1.385,1.385,0,0,0,1.385,9.278H2.24v2.967a.99.99,0,0,0,.99.99h.2a.99.99,0,0,0,.99-.99V9.278h2.71l2.053,1.5a.864.864,0,0,0,1.374-.7V8.244h.109a1.622,1.622,0,0,0,0-3.244Z" transform="translate(0 -1.873)" fill="#3f536c"/>
+      <path id="Path_325" data-name="Path 325" d="M76.57,21.915H74.682a.572.572,0,1,0,0,1.145H76.57a.572.572,0,0,0,0-1.145" transform="translate(-59.968 -17.733)" fill="#3f536c"/>
+    </g>
+  </g>
+</svg>
