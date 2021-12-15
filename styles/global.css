@@ -915,12 +915,12 @@ html,
        column-gap: 2.5rem;
 }
 
-.gap-y-10 {
-  row-gap: 2.5rem;
-}
-
 .gap-y-8 {
   row-gap: 2rem;
+}
+
+.gap-y-10 {
+  row-gap: 2.5rem;
 }
 
 .gap-x-3 {
@@ -1125,17 +1125,8 @@ html,
   background-color: rgb(255 226 103 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#f5efe9\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 239 233 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-20 {
   --tw-bg-opacity: 0.2;
-}
-
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
 }
 
 .from-red-500 {

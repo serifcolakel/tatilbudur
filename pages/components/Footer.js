@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className=" md:h-[537px] w-full md:rounded-3xl bg-[#F8F4F0] flex mt-6 sixth:justify-items-end relative">
+    <div className=" md:h-[537px] w-full md:rounded-3xl bg-[#F8F4F0] mt-6 relative">
       <div className="w-full flex flex-col md:p-0 pl-8 pr-8 items-center h-full">
         <div className=" md:w-[1180px] flex flex-row w-full pt-8 pb-4  md:pt-12 md:text-[22px] text-[16px] font-semibold border-b-2 md:border-b-0 mb-2">
           <img
@@ -10,7 +10,7 @@ export default function Footer() {
             alt="tatilbudur-footer-logo"
             className="pr-12"
           />
-          <div className="flex flex-row justify-center items-center text-center pr-8 gap-x-[1px] ">
+          <div className="flex flex-row justify-center items-center text-center gap-x-[1px] ">
             <p className="text-[#2A5AB3] ">#daha</p>
             <p className="text-[#709CEF] ">fazla</p>
             <p className="text-[#FF7F15] ">tatil</p>
@@ -19,7 +19,6 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row gap-x-8 md:w-[1180px] text-[#3F536C] text-[14px] font-bold md:divide-y-0 divide-y-2 gap-y-4">
           <div className="flex flex-row justify-between md:justify-start  md:flex-col  gap-y-2 pr-10  md:pt-4 pt-8 md:pb-0  pb-4">
             <div className="flex flex-col justify-between">
-              {" "}
               <a href="#otelara" className="flex flex-row gap-x-4">
                 <img
                   src="/images/Group 716.svg"

@@ -27,7 +27,7 @@ export default function Home() {
         <link
           rel="stylesheet"
           type="text/css"
-          charset="UTF-8"
+          charSet="UTF-8"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
         />
         <link
@@ -38,7 +38,7 @@ export default function Home() {
       </Head>
       <Header />
       <Reservation />
-      <div className="md:w-[1360px] flex flex-col items-center gap-y-6">
+      <div className="md:w-[1360px] w-full flex flex-col items-center gap-y-6">
         <Cards />
         <Tour />
         <Popular />
