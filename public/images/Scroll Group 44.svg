@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="276.305" height="196.751" viewBox="0 0 276.305 196.751">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="44" y="69" width="276.305" height="196.751" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2a5ab3" stop-opacity="0"/>
+      <stop offset="1" stop-color="#224381"/>
+    </linearGradient>
+  </defs>
+  <g id="Scroll_Group_44" data-name="Scroll Group 44" transform="translate(-44 -69)" clip-path="url(#clip-path)" style="mix-blend-mode: normal;isolation: isolate">
+    <g id="Group_1405" data-name="Group 1405" transform="translate(36.34 36.34)" opacity="0.617">
+      <rect id="Rectangle_821" data-name="Rectangle 821" width="267.071" height="247.625" transform="translate(247.625 0) rotate(90)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
