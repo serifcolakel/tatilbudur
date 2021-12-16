@@ -93,7 +93,7 @@ export default function Header() {
                 id="1"
                 className={
                   value === "1"
-                    ? "flex flex-row gap-x-2 justify-center items-center border-b-2 border-b-[#115BB9]  hover:cursor-pointer md:w-auto w-1/3 md:pb-0 md:pb-2 md:pt-4 pb-2"
+                    ? "flex flex-row gap-x-2 justify-center items-center border-b-2 border-b-[#115BB9]  hover:cursor-pointer md:w-auto w-1/3 md:pb-2 md:pt-4 pb-2"
                     : "flex flex-row gap-x-2 justify-center items-center border-b-2 border-b-[#ffffff] hover:cursor-pointer md:w-auto w-1/3 md:pb-2 md:pt-4 pb-2"
                 }
                 onClick={() => {
