@@ -171,7 +171,7 @@ export default function Reservation() {
                 görürsünüz!
               </p>
             </div>
-            <div className="pt-2">
+            <div >
               <button className="pt-3 pb-3 flex items-center justify-center w-[106px] h-[30px] text-[14px] text-[#3f536c] font-semibold  gap-x-4 border border-[#6F7E8F4D] rounded-full">
                 Giriş yapın
               </button>
