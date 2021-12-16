@@ -3,7 +3,7 @@ import React from "react";
 export default function MobileApp() {
   return (
     <div className="md:w-full w-11/12 md:h-[220px] h-[297px] bg-[#E2F2FA] md:mt-12 flex md:overflow-visible overflow-hidden pl-4 md:justify-between flex-row justify-center items-center md:items-center md:p-[80px] rounded-3xl ">
-      <div className="flex flex-col gap-y-6 items-start w-7/12 pl-2">
+      <div className="flex flex-col gap-y-6 items-start w-5/12 pl-2 md:w-7/12">
         <p className="text-[#3F536C] text-[16px] md:text-[20px] font-semibold ">
           TatilBudur uygulamasını indirin, aklınızdaki tatili hemen planlayın!
         </p>
@@ -45,14 +45,14 @@ export default function MobileApp() {
           İndir
         </button>
       </div>
-      <div className="relative top-2 left-[70px] md:hidden">
+      <div className="relative top-2 left-[25px] md:hidden scale-75">
         <img
           src="/images/app@2x.png"
           alt="App-store-pic"
-          className="w-8/12 object-cover h-full"
+          className="object-cover "
         />
       </div>
-      <div className="md:flex md:flex-col hidden">
+      <div className="md:flex md:flex-col hidden ">
         <img
           src="/images/qr.svg"
           alt="Mobile-app-qr"

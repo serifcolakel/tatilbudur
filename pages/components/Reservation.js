@@ -7,7 +7,7 @@ export default function Reservation() {
   const settings = {
     dots: true,
     infinite: true,
-    arrows: true,
+    arrows: false,
     autoplaySpeed: 3000,
     autoplay: true,
     speed: 500,
@@ -155,19 +155,15 @@ export default function Reservation() {
         Maximum karta özel 4 ay erteleme
       </p>
 
-      {/* className="p-8 h-[130px] md:h-[60px] bg-[#FFE267] bg-opacity-20  rounded-xl flex flex-row  items-center justify-between md:pt-0  md:pl-8 md:pr-8 pl-8 pr-8" */}
       <div className="pl-4 pr-4 md:pl-0 md:pr-0">
         <div className="flex  h-[130px]  flex-row items-start bg-[#FFE267] bg-opacity-20 md:h-[60px] rounded-xl pl-4 pr-4 gap-x-5 pt-4">
           <img src="/images/user.svg" className="w-7 h-7 mt-2 md:mt-0" />
           <div className="flex md:flex-row flex-col w-full justify-between gap-x-8 md:items-center items-start ">
-            <div className="flex md:flex-row flex-col  gap-x-6">
-              {" "}
+            <div className="flex md:flex-row flex-col text-[12px] md:text-[14px]   gap-x-6">
               <p className="text-[#3F536C] font-extrabold">
-                {" "}
                 Üyelere özel indirimli fiyatlar
               </p>
               <p className="text-[#3F536C] font-medium">
-                {" "}
                 Giriş yaptığınızda{" "}
                 <span className="border-b-[1px] border-black">
                   daha düşük fiyatlar
@@ -175,9 +171,8 @@ export default function Reservation() {
                 görürsünüz!
               </p>
             </div>
-            <div>
-              {" "}
-              <button className="flex items-center justify-center w-[106px] h-[30px] text-sm text-[#3f536c] font-semibold  gap-x-4 border border-[#6F7E8F4D] rounded-full p-2">
+            <div className="pt-2">
+              <button className="pt-3 pb-3 flex items-center justify-center w-[106px] h-[30px] text-[14px] text-[#3f536c] font-semibold  gap-x-4 border border-[#6F7E8F4D] rounded-full">
                 Giriş yapın
               </button>
             </div>

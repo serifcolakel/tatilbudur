@@ -330,7 +330,7 @@ export default function Header() {
                     </svg>
                   </div>
                   <span className="absolute top-0 left-0 h-full px-12 flex items-center text-sm text-gray-500 transition-all peer-focus:h-5 peer-focus:text-primary-brand-color peer-valid:h-5 peer-valid:text-primary-brand-color peer-valid:text-xs">
-                    Otel, Şehir, Bölge veya Tema Adı
+                    Uçuş Ara
                   </span>
                 </label>
 
