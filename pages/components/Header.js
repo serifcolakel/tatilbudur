@@ -86,15 +86,15 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <div className="w-full  justify-center md:w-[1180px] md:h-[176px] md:border-2 rounded-xl md:pl-10 pl-4 pr-4">
+        <div className="w-full  justify-center md:w-[1180px] md:h-[176px] md:border-2 text-[14px] rounded-xl md:pl-10 pl-4 pr-4">
           <Tabs value={value}>
             <TabList className="flex flex-row gap-x-8 pb-4">
               <Tab
                 id="1"
                 className={
                   value === "1"
-                    ? "flex flex-row gap-x-2 justify-center border-b-2 border-b-[#115BB9]  hover:cursor-pointer p-3 "
-                    : "flex flex-row gap-x-2 justify-center hover:cursor-pointer p-3 "
+                    ? "flex flex-row gap-x-2 justify-center items-center border-b-2 border-b-[#115BB9]  hover:cursor-pointer md:w-auto w-1/3 md:pb-0 md:pb-2 md:pt-4 pb-2"
+                    : "flex flex-row gap-x-2 justify-center items-center border-b-2 border-b-[#ffffff] hover:cursor-pointer md:w-auto w-1/3 md:pb-2 md:pt-4 pb-2"
                 }
                 onClick={() => {
                   setValue("1");
@@ -111,8 +111,8 @@ export default function Header() {
                 id="2"
                 className={
                   value === "2"
-                    ? "flex flex-row gap-x-2 border-b-2 border-b-[#115BB9]  hover:cursor-pointer p-3 "
-                    : "flex flex-row gap-x-2 hover:cursor-pointer p-3 "
+                    ? "flex flex-row gap-x-2 justify-center items-center border-b-2 border-b-[#115BB9]  hover:cursor-pointer md:w-auto  w-1/3 md:pb-2 md:pt-4 pb-2"
+                    : "flex flex-row gap-x-2 justify-center items-center border-b-2 border-b-[#ffffff] hover:cursor-pointer md:w-auto w-1/3 md:pb-2 md:pt-4 pb-2"
                 }
                 onClick={() => {
                   setValue("2");
@@ -129,8 +129,8 @@ export default function Header() {
                 id="2"
                 className={
                   value === "3"
-                    ? "flex flex-row gap-x-2 border-b-2 border-b-[#115BB9]  hover:cursor-pointer p-3 "
-                    : "flex flex-row gap-x-2 hover:cursor-pointer p-3 "
+                    ? "flex flex-row gap-x-2 justify-center items-center border-b-2 border-b-[#115BB9]  hover:cursor-pointer md:w-auto w-1/3 md:pb-2 md:pt-4 pb-2"
+                    : "flex flex-row gap-x-2 justify-center items-center border-b-2 border-b-[#ffffff] hover:cursor-pointer md:w-auto w-1/3 md:pb-2 md:pt-4 pb-2"
                 }
                 onClick={() => {
                   setValue("3");
