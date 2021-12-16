@@ -9,9 +9,9 @@ export default function Footer() {
             <img
               src="/images/footer-logo.svg"
               alt="tatilbudur-footer-logo"
-              className="pr-12"
+              className="pr-6"
             />
-            <div className="flex flex-row justify-center items-center text-center gap-x-[1px] ">
+            <div className="flex flex-row justify-center items-center text-center md:gap-x-[1px] ">
               <p className="text-[#2A5AB3] ">#daha</p>
               <p className="text-[#709CEF] ">fazla</p>
               <p className="text-[#FF7F15] ">tatil</p>
