@@ -33,7 +33,7 @@ export default function Header() {
           <div className="hidden md:flex md:flex-row md:gap-x-8">
             <button
               type="button"
-              className="flex flex-row items-center gap-x-3 font-bold text-[#3F536C]"
+              className="flex flex-row items-center gap-x-3 font-bold text-[#3F536C] hover:scale-125"
             >
               Otel
               <img
@@ -43,7 +43,7 @@ export default function Header() {
             </button>
             <button
               type="button"
-              className="flex flex-row items-center gap-x-3 font-bold text-[#3F536C]"
+              className="flex flex-row items-center gap-x-3 font-bold text-[#3F536C] hover:scale-125"
             >
               Tur
               <img
@@ -53,7 +53,7 @@ export default function Header() {
             </button>
             <button
               type="button"
-              className="flex flex-row font-bold items-center gap-x-3 text-[#3F536C]"
+              className="flex flex-row font-bold items-center gap-x-3 text-[#3F536C] hover:scale-125"
             >
               Kampanyalar
               <img
@@ -63,7 +63,7 @@ export default function Header() {
             </button>
           </div>
           <div className="hidden md:flex md:flex-row md:items-center gap-x-4 pr-4 ">
-            <button className="flex w-[150px] h-[30px] text-[12px] text-center text-[#3f536c] font-semibold flex-row items-center gap-x-4 border border-[#6F7E8F4D] rounded-full p-2">
+            <button className="flex w-[150px] h-[30px] text-[12px]  text-center text-[#3f536c] font-semibold flex-row items-center gap-x-4 border border-[#6F7E8F4D] rounded-full p-2">
               <img className="" src="/images/Icon feather-headphones.svg" />0
               850 333 3 33
             </button>
@@ -290,7 +290,7 @@ export default function Header() {
                   </span>
                 </label>
                 <div>
-                  <button className="w-full md:w-[180px] h-[50px] bg-[#2A5AB3] text-white rounded-3xl mx-auto ">
+                  <button className="w-full md:w-[180px] h-[50px] bg-[#2A5AB3] text-white rounded-3xl mx-auto hover:scale-110">
                     Otel Ara
                   </button>
                 </div>
@@ -441,7 +441,7 @@ export default function Header() {
                   </span>
                 </label>
                 <div>
-                  <button className="w-full md:w-[180px] h-[50px] bg-[#2A5AB3] text-white rounded-3xl mx-auto ">
+                  <button className="w-full md:w-[180px] h-[50px] bg-[#2A5AB3] text-white rounded-3xl mx-auto hover:scale-110 ">
                     Uçuş Ara
                   </button>
                 </div>
@@ -593,7 +593,7 @@ export default function Header() {
                 </label>
 
                 <div>
-                  <button className="w-full md:w-[180px] h-[50px] bg-[#2A5AB3] text-white rounded-3xl mx-auto ">
+                  <button className="w-full md:w-[180px] h-[50px] bg-[#2A5AB3] text-white rounded-3xl mx-auto hover:scale-110 ">
                     Tur Ara
                   </button>
                 </div>

@@ -41,7 +41,7 @@ export default function MobileApp() {
             className="w-auto h-auto  object-cover  "
           />
         </div>
-        <button className="md:hidden w-[154px] h-[40px] rounded-3xl text-center text-[14px] text-white bg-[#2A5AB3] font-extrabold">
+        <button className="md:hidden w-[154px] h-[40px] rounded-3xl text-center text-[14px] text-white bg-[#2A5AB3] font-extrabold hover:scale-125">
           İndir
         </button>
       </div>

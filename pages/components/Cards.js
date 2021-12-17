@@ -8,7 +8,7 @@ export default function Cards() {
   }, [value]);
   return (
     <>
-      <div className=" bg-[#F6F5F8] w-full mt-8 md:flex justify-center h-[570px]">
+      <div className=" bg-[#F6F5F8] w-full mt-8 md:flex justify-center h-[570px] md:rounded-3xl md:mb-10">
         <div className="flex flex-col w-full pl-4 pr-4 md:pl-0 md:pr-0 md:w-[1180px]">
           <h2 className="text-[#3F536C] pt-[50px] text-2xl font-bold tracking-wide md:flex text-center md:items-start">
             Yazın ilk fırsatlarını kaçırma!
@@ -16,7 +16,7 @@ export default function Cards() {
           <div className="md:hidden">
             <MobileChoseTour />
           </div>
-          <Tabs value={value} className="hidden md:block">
+          <Tabs value={value} className="hidden md:block ">
             <TabList className="flex flex-row justify-between">
               <div className="flex flex-row gap-x-8 pb-10">
                 <Tab
@@ -24,7 +24,7 @@ export default function Cards() {
                   className={
                     value === "1"
                       ? "flex flex-row gap-x-2 border-b-2 border-b-[#115BB9]  hover:cursor-pointer p-3 text-[#3F536C] text-[14px] font-semibold"
-                      : "flex flex-row gap-x-2 hover:cursor-pointer p-3 text-[#3F536C] text-[14px] opacity-30 font-semibold "
+                      : "flex flex-row gap-x-2 hover:cursor-pointer p-3 text-[#3F536C] text-[14px] opacity-70 font-medium "
                   }
                   onClick={() => {
                     setValue("1");
@@ -37,7 +37,7 @@ export default function Cards() {
                   className={
                     value === "2"
                       ? "flex flex-row gap-x-2 border-b-2 border-b-[#115BB9]  hover:cursor-pointer p-3 text-[#3F536C] text-[14px] font-semibold"
-                      : "flex flex-row gap-x-2 hover:cursor-pointer p-3 text-[#3F536C] text-[14px] opacity-30 font-semibold "
+                      : "flex flex-row gap-x-2 hover:cursor-pointer p-3 text-[#3F536C] text-[14px] opacity-70 font-medium "
                   }
                   onClick={() => {
                     setValue("2");
@@ -50,7 +50,7 @@ export default function Cards() {
                   className={
                     value === "3"
                       ? "flex flex-row gap-x-2 border-b-2 border-b-[#115BB9]  hover:cursor-pointer p-3 text-[#3F536C] text-[14px] font-semibold"
-                      : "flex flex-row gap-x-2 hover:cursor-pointer p-3 text-[#3F536C] text-[14px] opacity-30 font-semibold "
+                      : "flex flex-row gap-x-2 hover:cursor-pointer p-3 text-[#3F536C] text-[14px] opacity-70 font-medium "
                   }
                   onClick={() => {
                     setValue("3");

@@ -68,7 +68,7 @@ export default function DiscountContact() {
             </div>
           </div>
           <div className="flex flex-row justify-between w-full ">
-            <button className="md:mt-0 mt-8 z-10 absolute w-[162px] md:w-[116px] h-[50px] text-[#4E5C64] text-[14px] bg-white rounded-3xl overflow-hidden font-bold md:ml-0 ml-4 -mb-4">
+            <button className="md:mt-0 mt-8 z-10 absolute hover:scale-125 w-[162px] md:w-[116px] h-[50px] text-[#4E5C64] text-[14px] bg-white rounded-3xl overflow-hidden font-bold md:ml-0 ml-4 -mb-4">
               Gönder
             </button>
             <div className="md:hidden relative bottom-[70px] left-[80px] pt-12">

@@ -55,7 +55,7 @@ export default function Reservation() {
               Erken Rezervasyon <br />
               Festivali
             </p>
-            <button className="w-[153px] h-[40px] bg-[#FF9D00] rounded-3xl text-white">
+            <button className="w-[153px] h-[40px] bg-[#FF9D00] rounded-3xl text-white hover:scale-125">
               Fırsatları gör
             </button>
           </div>
@@ -68,7 +68,7 @@ export default function Reservation() {
                 Kültür Turlarını <br />
                 Keşfedin!
               </p>
-              <button className="w-[112px] h-[30px] bg-[#3F536C] rounded-3xl text-white text-[12px]">
+              <button className="w-[112px] h-[30px] bg-[#3F536C] rounded-3xl text-white text-[12px] hover:scale-125">
                 Fırsatları Gör
               </button>
             </div>
@@ -88,7 +88,7 @@ export default function Reservation() {
                 Kış Tatili <br />
                 için Hazırlanın!
               </p>
-              <button className="w-[112px] h-[30px] bg-[#3F536C] rounded-3xl text-white text-[12px]">
+              <button className="w-[112px] h-[30px] bg-[#3F536C] rounded-3xl text-white text-[12px] hover:scale-125">
                 Fırsatları Gör
               </button>
             </div>
@@ -171,8 +171,8 @@ export default function Reservation() {
                 görürsünüz!
               </p>
             </div>
-            <div >
-              <button className="pt-3 pb-3 flex items-center justify-center w-[106px] h-[30px] text-[14px] text-[#3f536c] font-semibold  gap-x-4 border border-[#6F7E8F4D] rounded-full">
+            <div>
+              <button className="pt-3 pb-3 flex items-center justify-center w-[106px] hover:scale-125 h-[30px] text-[14px] text-[#3f536c] font-semibold  gap-x-4 border border-[#6F7E8F4D] rounded-full">
                 Giriş yapın
               </button>
             </div>

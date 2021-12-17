@@ -58,7 +58,7 @@ export default function Article() {
           </span>
         </p>
         <button
-          className="text-[#115BB9] text-[14px] font-bold "
+          className="text-[#115BB9] text-[14px] font-bold hover:scale-125"
           onClick={() => {
             setShow([!show[0], false, false]);
           }}
@@ -102,7 +102,7 @@ export default function Article() {
           </span>
         </p>
         <button
-          className="text-[#115BB9] text-[14px] font-bold "
+          className="text-[#115BB9] text-[14px] font-bold hover:scale-125"
           onClick={() => {
             setShow([false, !show[1], false]);
           }}
@@ -139,7 +139,7 @@ export default function Article() {
           </span>
         </p>
         <button
-          className="text-[#115BB9] text-[14px] font-bold "
+          className="text-[#115BB9] text-[14px] font-bold hover:scale-125"
           onClick={() => {
             setShow([false, false, !show[2]]);
           }}
