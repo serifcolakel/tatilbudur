@@ -13,12 +13,14 @@ export default function Header() {
         <div className="flex md:flex-row flex-col items-center justify-between w-full md:w-[1440px] md:border-r-2 md:border-l-2 border-b-2 md:pt-5 md:pl-6 md:pr-6 md:pb-4">
           <div className="md:w-auto w-full ">
             <div className="hidden md:flex">
-              <Image
-                src="/images/logo.svg"
-                alt="Picture of the author"
-                width={218}
-                height={43}
-              />
+              <a href="/" >
+                <Image
+                  src="/images/logo.svg"
+                  alt="Picture of the author"
+                  width={218}
+                  height={43}
+                />
+              </a>
             </div>
 
             <div className="md:hidden w-full ">
