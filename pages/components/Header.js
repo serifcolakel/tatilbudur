@@ -3,12 +3,11 @@ import HeaderTabs from "./HeaderTabs";
 import HeaderTop from "./HeaderTop";
 
 export default function Header() {
-
   return (
     <div className="gap-y-10 ">
       <div className="flex flex-col items-center justify-center gap-y-8 ">
         <HeaderTop />
-        <HeaderTabs/>
+        <HeaderTabs />
         <div className="flex flex-row items-center justify-center md:hidden w-full border-t-2 pt-8">
           <div>
             <a

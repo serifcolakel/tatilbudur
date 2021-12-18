@@ -12,7 +12,6 @@ export default function SelectLabels() {
     setValue(event.target.value);
   };
   React.useEffect(() => {
-    console.log("value degisti");
   }, [value]);
 
   return (

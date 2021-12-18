@@ -1,12 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import slider from "react-slick/lib/slider";
 export default function TourSlider() {
-  const [nav1, setNav1] = React.useState(null);
-  const [nav2, setNav2] = React.useState(null);
-  let slider1 = [];
-  let slider2 = [];
-
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <img
       className="scale-150"
@@ -18,11 +12,6 @@ export default function TourSlider() {
   const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
     <img src="/images/arrow-right-solid.svg" alt="nextArrow" {...props} />
   );
-  // React.useEffect(() => {
-
-  //   setNav1(slider1);
-  //   setNav2(slider2);
-  // }, [slider1, slider2]);
 
   return (
     <div className="md:w-[1180px]  md:flex-col w-full mx-auto md:rounded-3xl flex  overflow-x-clip ">

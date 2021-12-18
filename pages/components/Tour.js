@@ -4,7 +4,7 @@ import Test from "./TourSlider";
 export default function Tour() {
   const [value, setValue] = React.useState("1");
   React.useEffect(() => {
-    console.log("cards value degisti");
+    ("cards value degisti");
   }, [value]);
   return (
     <div className="md:w-[1360px] md:h-[730px] h-[544px] mb-4 md:mb-0 w-full bg-[#EDF4FD] text-bghome md:rounded-3xl flex flex-col items-center justify-start overflow-clip">

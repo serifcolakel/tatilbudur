@@ -3,9 +3,6 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import MobileChoseTour from "./MobileChoseTour";
 export default function Cards() {
   const [value, setValue] = useState("1");
-  useEffect(() => {
-    console.log("cards value degisti");
-  }, [value]);
   return (
     <>
       <div className=" bg-[#F6F5F8] w-full mt-8 md:flex justify-center h-[570px] md:rounded-3xl md:mb-10">
