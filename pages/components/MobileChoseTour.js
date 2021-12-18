@@ -3,7 +3,6 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-import MobileApp from "./MobileApp";
 import SliderTour from "./SliderTour";
 export default function SelectLabels() {
   const [value, setValue] = React.useState("1");
@@ -11,8 +10,6 @@ export default function SelectLabels() {
   const handleChange = (event) => {
     setValue(event.target.value);
   };
-  React.useEffect(() => {
-  }, [value]);
 
   return (
     <div className="flex flex-col w-full mt-8 gap-y-2">

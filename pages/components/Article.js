@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 export default function Article() {
   const [show, setShow] = React.useState([false, false, false]);

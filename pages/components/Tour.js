@@ -3,9 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Test from "./TourSlider";
 export default function Tour() {
   const [value, setValue] = React.useState("1");
-  React.useEffect(() => {
-    ("cards value degisti");
-  }, [value]);
+
   return (
     <div className="md:w-[1360px] md:h-[730px] h-[544px] mb-4 md:mb-0 w-full bg-[#EDF4FD] text-bghome md:rounded-3xl flex flex-col items-center justify-start overflow-clip">
       <div className="md:w-[1180px] w-full md:pt-16 pt-4 overflow-clip">
