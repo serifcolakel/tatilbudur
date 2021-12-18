@@ -19,9 +19,9 @@ export default function Reservation() {
   return (
     <div className="w-full md:w-[1180px] flex flex-col md:pt-6">
       <div className="w-full flex md:flex-row flex-col justify-between md:h-[340px] ">
-        <div className="relative w-full md:w-[780px] h-auto md:h-[340px] rounded-xl from-red-500 to-slate-100 z-50">
-          <Slider className="p-8 md:p-0 " {...settings}>
-            <div id="show_bg_2">
+        <div className="relative w-full md:w-[780px] h-auto md:h-[340px] rounded-xl from-red-500 to-slate-100 z-0">
+          <Slider className="p-8 md:p-0 z-0 " {...settings}>
+            <div id="show_bg_2 z-0">
               <img
                 src="https://ucdn.tatilbudur.net/Banner/850x300/Banner_431148.jpg"
                 alt="slick-item-1"

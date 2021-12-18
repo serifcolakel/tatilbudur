@@ -79,7 +79,7 @@ export default function TourSlider() {
               incelemeye başlayın, yurt dışında daha fazla yeni yerler
               keşfetmenin keyfine varın!
             </p>
-            <button className="w-[132px] h-10 text-[#115BB9] text-[12px] font-bold bg-[#ffffff] rounded-3xl">
+            <button className="w-[132px] h-10 text-[#115BB9] text-[12px] font-bold bg-[#ffffff] rounded-3xl hover:scale-125">
               Fırsatları Gör
             </button>
           </div>
@@ -111,7 +111,7 @@ export default function TourSlider() {
               incelemeye başlayın, yurt dışında daha fazla yeni yerler
               keşfetmenin keyfine varın!
             </p>
-            <button className="w-[132px] h-10 text-[#115BB9] text-[12px] font-bold bg-[#ffffff] rounded-3xl">
+            <button className="w-[132px] h-10 text-[#115BB9] text-[12px] font-bold bg-[#ffffff] rounded-3xl hover:scale-125">
               Fırsatları Gör
             </button>
           </div>
@@ -143,7 +143,7 @@ export default function TourSlider() {
               incelemeye başlayın, yurt dışında daha fazla yeni yerler
               keşfetmenin keyfine varın!
             </p>
-            <button className="w-[132px] h-10 text-[#115BB9] text-[12px] font-bold bg-[#ffffff] rounded-3xl">
+            <button className="w-[132px] h-10 text-[#115BB9] text-[12px] font-bold bg-[#ffffff] rounded-3xl hover:scale-125">
               Fırsatları Gör
             </button>
           </div>
@@ -175,7 +175,7 @@ export default function TourSlider() {
               incelemeye başlayın, yurt dışında daha fazla yeni yerler
               keşfetmenin keyfine varın!
             </p>
-            <button className="w-[132px] h-10 text-[#115BB9] text-[12px] font-bold bg-[#ffffff] rounded-3xl">
+            <button className="w-[132px] h-10 text-[#115BB9] text-[12px] font-bold bg-[#ffffff] rounded-3xl hover:scale-125">
               Fırsatları Gör
             </button>
           </div>

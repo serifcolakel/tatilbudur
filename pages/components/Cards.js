@@ -86,7 +86,7 @@ export default function Cards() {
                       </p>
                       <div className="hidden md:block">
                         <p className="text-[20px]  text-right text-[#115BB9] font-semibold">
-                          230<t className="text-[16px]">₺</t>
+                          230<b className="text-[16px]">₺</b>
                           <span className="text-[10px] text-[#3F536C] opacity-50 font-bold">
                             'den
                           </span>
@@ -128,7 +128,7 @@ export default function Cards() {
                       </p>
                       <div className="hidden md:block">
                         <p className="text-[20px]  text-right text-[#115BB9] font-semibold">
-                          230<t className="text-[16px]">₺</t>
+                          230<b className="text-[16px]">₺</b>
                           <span className="text-[10px] text-[#3F536C] opacity-50 font-bold">
                             'den
                           </span>
@@ -167,7 +167,7 @@ export default function Cards() {
                       </p>
                       <div className="hidden md:block">
                         <p className="text-[20px]  text-right text-[#115BB9] font-semibold">
-                          230<t className="text-[16px]">₺</t>
+                          230<b className="text-[16px]">₺</b>
                           <span className="text-[10px] text-[#3F536C] opacity-50 font-bold">
                             'den
                           </span>
@@ -206,7 +206,7 @@ export default function Cards() {
                       </p>
                       <div className="hidden md:block">
                         <p className="text-[20px]  text-right text-[#115BB9] font-semibold">
-                          230<t className="text-[16px]">₺</t>
+                          230<b className="text-[16px]">₺</b>
                           <span className="text-[10px] text-[#3F536C] opacity-50 font-bold">
                             'den
                           </span>
