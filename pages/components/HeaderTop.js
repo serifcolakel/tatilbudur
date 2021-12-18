@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
-
+import MegaMenu from "./MegaMenu";
 export default function HeaderTop() {
+  const [openMegaMenu, setOpenMegaMenu] = React.useState(false);
+
   return (
     <div className="flex md:flex-row flex-col items-center justify-between w-full md:w-[1440px] md:border-r-2 md:border-l-2 border-b-2 md:pt-5 md:pl-6 md:pr-6 md:pb-4">
       <div className="md:w-auto w-full ">
@@ -26,16 +28,20 @@ export default function HeaderTop() {
       </div>
 
       <div className="hidden md:flex md:flex-row md:gap-x-8">
-        <button
-          type="button"
-          className="flex flex-row items-center gap-x-3 font-bold text-[#3F536C] hover:scale-125"
-        >
-          Otel
-          <img
-            src="/images/Icon awesome-angle-down-1.svg"
-            className="md:pt-1"
-          />
-        </button>
+        <div className="relative ">
+          <button
+            onClick={() => setOpenMegaMenu(!openMegaMenu)}
+            type="button"
+            className="flex flex-row items-center gap-x-3 font-bold text-[#3F536C] hover:scale-125"
+          >
+            Otel
+            <img
+              src="/images/Icon awesome-angle-down-1.svg"
+              className="md:pt-1"
+            />
+          </button>
+          {openMegaMenu && <MegaMenu />}
+        </div>
         <button
           type="button"
           className="flex flex-row items-center gap-x-3 font-bold text-[#3F536C] hover:scale-125"

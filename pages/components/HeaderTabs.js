@@ -142,7 +142,7 @@ export default function HeaderTabs() {
           <div className="flex flex-col md:flex-row gap-x-2 gap-y-4 md:pt-2 w-full justify-between relative">
             <label
               htmlFor="phone"
-              className=" md:flex group  md:w-[400px] w-full relative cursor-pointer z-50  "
+              className=" md:flex group  md:w-[400px] w-full relative cursor-pointer z-20  "
             >
               <input
                 inputMode="text"
