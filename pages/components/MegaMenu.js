@@ -229,45 +229,12 @@ export default function MegaMenu() {
             </div>
           </div>
         )}
-        {isOpen[1] && (
-          <img
-            src="http://www.bulunyapi.com/images/yapim_asamasinda.gif"
-            alt="yapim-asamasinda"
-          />
-        )}
-        {isOpen[2] && (
-          <img
-            src="http://www.bulunyapi.com/images/yapim_asamasinda.gif"
-            alt="yapim-asamasinda"
-          />
-        )}
-        {isOpen[3] && (
-          <img
-            src="http://www.bulunyapi.com/images/yapim_asamasinda.gif"
-            alt="yapim-asamasinda"
-          />
-        )}
-
-        {isOpen[4] && (
-          <img
-            src="http://www.bulunyapi.com/images/yapim_asamasinda.gif"
-            alt="yapim-asamasinda"
-          />
-        )}
-
-        {isOpen[5] && (
-          <img
-            src="http://www.bulunyapi.com/images/yapim_asamasinda.gif"
-            alt="yapim-asamasinda"
-          />
-        )}
-
-        {isOpen[6] && (
-          <img
-            src="http://www.bulunyapi.com/images/yapim_asamasinda.gif"
-            alt="yapim-asamasinda"
-          />
-        )}
+        {isOpen[1] && <div>Üzerinde çalışıyorum</div>}
+        {isOpen[2] && <div>Üzerinde çalışıyorum</div>}
+        {isOpen[3] && <div>Üzerinde çalışıyorum</div>}
+        {isOpen[4] && <div>Üzerinde çalışıyorum</div>}
+        {isOpen[5] && <div>Üzerinde çalışıyorum</div>}
+        {isOpen[6] && <div>Üzerinde çalışıyorum</div>}
       </div>
     </div>
   );
