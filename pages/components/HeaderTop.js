@@ -3,6 +3,7 @@ import Image from "next/image";
 import MegaMenuOtel from "./MegaMenuOtel";
 import MegaMenuTour from "./MegaMenuTour";
 import MegaMenuCampaings from "./MegaMenuCampaings";
+import ResponsiveMenu from "./ResponsiveMenu";
 export default function HeaderTop() {
   const [openMegaMenu, setOpenMegaMenu] = React.useState([false, false, false]);
   return (
@@ -77,18 +78,7 @@ export default function HeaderTop() {
           </button>
         </div>
       </div>
-      <div className="md:hidden flex flex-row items-center justify-between mx-auto p-8 w-full h-[70px]">
-        <div className="flex flex-row items-center gap-x-3 text-[10px] font-extrabold text-[#3F536C]">
-          <img src="/images/menu.svg" alt="menu-logo" />
-          <p>MENU</p>
-        </div>
-        <div className="pr-8">
-          <img src="/images/Group 849.svg" />
-        </div>
-        <div>
-          <img src="/images/user.svg" />
-        </div>
-      </div>
+      <ResponsiveMenu />
     </div>
   );
 }
