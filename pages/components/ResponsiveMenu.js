@@ -67,22 +67,21 @@ export default function ResponsiveMenu() {
               Üye Olun / Giriş Yapın
             </button>
             <div className="flex flex-col justify-center divide-y-[1px] divide-[#CFD4DA]">
-              <div className="flex flex-row items-center justify-between py-4">
+              <div
+                className="flex flex-row items-center justify-between py-4"
+                onClick={() => {
+                  setState([!state[0], false, false, false]);
+                }}
+              >
                 <div className="flex flex-row gap-x-4 items-center">
                   <FaHotel />
                   <p className="text-base  ">Oteller</p>
                 </div>
                 <MdKeyboardArrowUp
                   className={!state[0] ? "hidden" : "w-6 h-6 text-[#CFD4DA] "}
-                  onClick={() => {
-                    setState([!state[0], false, false, false]);
-                  }}
                 />
                 <MdKeyboardArrowDown
                   className={!state[0] ? "w-6 h-6 text-[#CFD4DA] " : "hidden"}
-                  onClick={() => {
-                    setState([!state[0], false, false, false]);
-                  }}
                 />
               </div>
               {state[0] && (
@@ -160,41 +159,39 @@ export default function ResponsiveMenu() {
                 </div>
               )}
 
-              <div className="flex flex-row items-center justify-between py-4">
+              <div
+                className="flex flex-row items-center justify-between py-4"
+                onClick={() => {
+                  setState([false, !state[1], false, false]);
+                }}
+              >
                 <div className="flex flex-row gap-x-4 items-center">
                   <img src="/images/Path 40.svg" alt="localation-icon" />
                   <p className="text-base">Uçuşlar</p>
                 </div>
                 <MdKeyboardArrowUp
                   className={!state[1] ? "hidden" : "w-6 h-6 text-[#CFD4DA] "}
-                  onClick={() => {
-                    setState([false, !state[1], false, false]);
-                  }}
                 />
                 <MdKeyboardArrowDown
                   className={!state[1] ? "w-6 h-6 text-[#CFD4DA] " : "hidden"}
-                  onClick={() => {
-                    setState([false, !state[1], false, false]);
-                  }}
                 />
               </div>
               {state[1] && "Üzerinde çalışıyorum."}
-              <div className="flex flex-row items-center justify-between py-4">
+              <div
+                className="flex flex-row items-center justify-between py-4"
+                onClick={() => {
+                  setState([false, false, !state[2], false]);
+                }}
+              >
                 <div className="flex flex-row gap-x-4 items-center">
                   <FaHotel />
                   <p className="text-base">Turlar</p>
                 </div>
                 <MdKeyboardArrowUp
                   className={!state[2] ? "hidden" : "w-6 h-6 text-[#CFD4DA] "}
-                  onClick={() => {
-                    setState([false, false, !state[2], false]);
-                  }}
                 />
                 <MdKeyboardArrowDown
                   className={!state[2] ? "w-6 h-6 text-[#CFD4DA] " : "hidden"}
-                  onClick={() => {
-                    setState([false, false, !state[2], false]);
-                  }}
                 />
               </div>
               {state[2] && (
@@ -241,22 +238,21 @@ export default function ResponsiveMenu() {
                   </div>
                 </div>
               )}
-              <div className="flex flex-row items-center justify-between py-4">
+              <div
+                className="flex flex-row items-center justify-between py-4"
+                onClick={() => {
+                  setState([false, false, false, !state[3]]);
+                }}
+              >
                 <div className="flex flex-row gap-x-4 items-center">
                   <MdCampaign />
                   <p className="text-base">Kampanyalar</p>
                 </div>
                 <MdKeyboardArrowUp
                   className={!state[3] ? "hidden" : "w-6 h-6 text-[#CFD4DA] "}
-                  onClick={() => {
-                    setState([false, false, false, !state[3]]);
-                  }}
                 />
                 <MdKeyboardArrowDown
                   className={!state[3] ? "w-6 h-6 text-[#CFD4DA] " : "hidden"}
-                  onClick={() => {
-                    setState([false, false, false, !state[3]]);
-                  }}
                 />
               </div>
               {state[3] && "Üzerinde çalışıyorum... "}

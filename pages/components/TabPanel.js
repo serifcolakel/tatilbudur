@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import DateRangePickerItem from "./DateRangePicker";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
+import SearchResponsive from "./SearchResponsive";
 const style = {
   position: "absolute",
   top: "50%",
@@ -23,11 +24,7 @@ export default function TabPanelFirst(props) {
   const { text1, text2, text3, button1 } = props;
   return (
     <div className="md:hidden flex flex-col  gap-x-2 gap-y-2  w-full just ">
-      <button className="w-full h-[56px] flex flex-row pl-4 items-center justify-start gap-x-4 border-black border-opacity-30 border-[0.5px] rounded-md">
-        <img src="/images/Path 40.svg" alt="localation-icon" />
-        <span className="text-sm text-gray-500">{text1}</span>
-      </button>
-
+      <SearchResponsive />
       <DateRangePickerItem />
 
       <button
