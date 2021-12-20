@@ -1,27 +1,83 @@
-# Next.js + Tailwind CSS Example
+# **Tatilbudur UI Design using Next.js + Tailwind CSS**
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# Kullanılan Kütüphaneler
 
-## Preview
+> - React-icons
+> - @react-hook/window-size
+> - react-slick"
+> - @mui/material
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+# Açıklama
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+> - Tatilbudur.com tarafindan oluşturulan front end challenge yarışması kapsaminda xd.adobe.com sitesi üzerinden belirlenen tasarimlari NextJS ve TailwindCSS kullanarak gerçekleştirdim.
 
-## Deploy your own
+# Proje Vercel Demo
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+> - https://tatilbudur-serifcolakel.vercel.app/
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+# Ekran Görüntüleri
 
-## How to use
+## Web İçin Görüntüler
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+> - ### **Web Anasayfa**
+>   ![Image of MainTB](https://i.hizliresim.com/ggnlp3o.jpg)
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+> - ### **MegaMenu**
+>   ![Image of MainTB](https://i.hizliresim.com/rad3pcu.jpg)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+> - ### **Search**
+>   ![Image of MainTB](https://i.hizliresim.com/ogyj8vk.jpg)
+
+> - ### **Date Picker**
+>   ![Image of MainTB](https://i.hizliresim.com/sih79vd.jpg)
+
+> - ### **Person & Child Seçim**
+>   ![Image of MainTB](https://i.hizliresim.com/ja4mue8.jpg)
+
+> - ### **Tabs & Slider**
+
+> > - #### **Auto Slider**
+> >   ![Image of MainTB](https://i.hizliresim.com/78lvpaf.jpg)
+
+> > - #### **Tabs & Cards**
+> >   ![Image of MainTB](https://i.hizliresim.com/446xdx2.jpg)
+
+> > - ### **Tabs & Slider**
+
+- autoplay olmadığı için sağa kaydiriniz... ve tabslar doldurulabilir.
+  ![Image of MainTB](https://i.hizliresim.com/ks3eyx3.jpg)
+
+> - ### **Firsatlar Contact MobileApp & Destekciler**
+>   ![Image of MainTB](https://i.hizliresim.com/grugeza.jpg)
+
+> - ### **Footer**
+>   ![Image of MainTB](https://i.hizliresim.com/g6coyi5.jpg)
+
+## Mobil İçin Görüntüler
+
+> - ### **Menu**
+>   ![Image of MainTB](https://i.hizliresim.com/bcpppoe.jpg)
+
+> - ### **Menu Opened**
+>   ![Image of MainTB](https://i.hizliresim.com/44q2js5.jpg)
+
+> - ### **Date Picker**
+>   ![Image of MainTB](https://i.hizliresim.com/5xjssjd.jpg)
+
+> - ### **Person & Child Seçim**
+>   ![Image of MainTB](https://i.hizliresim.com/k1lxvas.jpg)
+
+> - ### **Tabs & Slider**
+
+> - (render olarak aynı slider renderliyorum gözlemlemek için dikkatli olunması gerekiyor props olarak img, text etc. gönderilerek diğer sliderlar düzenlenebilir )
+>   ![Image of MainTB](https://i.hizliresim.com/e26jl1s.jpg)
+
+> - ### **Tabs & Slider**
+
+- autoplay olmadığı için sağa kaydiriniz... ve tabslar doldurulabilir.
+  ![Image of MainTB](https://i.hizliresim.com/m9clgy9.jpg)
+
+> - ### **Footer**
+
+- (Clickable olarak yapmayi unutumuşum yeni gördüm xD)
+  ![Image of MainTB](https://i.hizliresim.com/8bx70fa.jpg)
